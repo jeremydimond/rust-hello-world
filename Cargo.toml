@@ -1,0 +1,12 @@
+[package]
+name = "rust-hello-world"
+version = "0.0.0"
+edition = "2024"
+authors = ["Jeremy Dimond <jeremy@jeremydimond.com>" ]
+readme = "README.md"
+
+[dependencies]
+
+[dev-dependencies]
+
+[profile]

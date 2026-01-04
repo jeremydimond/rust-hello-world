@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -u -e
+
+cargo clean
+./run-cargo-update
+./run-unit-tests-with-coverage

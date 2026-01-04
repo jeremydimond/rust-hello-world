@@ -1,0 +1,7 @@
+#!/bin/bash
+
+set -u -e
+
+TEST_COVERAGE_MINIMUM=100
+
+cargo llvm-cov --fail-under-lines ${TEST_COVERAGE_MINIMUM}
