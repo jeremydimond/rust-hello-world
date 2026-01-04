@@ -15,10 +15,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v5
-      - name: Temporarily modify the rust toolchain version
-        run: rustup override set nightly
-      - name: Output rust version for educational purposes
-        run: rustup --version
+      - uses: dtolnay/rust-toolchain@stable
       - name: Run checks
         run: |
           ./run-checks
