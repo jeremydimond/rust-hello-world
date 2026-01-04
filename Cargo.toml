@@ -8,5 +8,6 @@ readme = "README.md"
 [dependencies]
 
 [dev-dependencies]
+cargo-llvm-cov = "0.6.1"
 
 [profile]
